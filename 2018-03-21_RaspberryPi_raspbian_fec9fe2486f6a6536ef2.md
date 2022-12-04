@@ -5,12 +5,6 @@ id:      fec9fe2486f6a6536ef2
 private: true
 -->
 
-# 追記(2022.12.04)
-
-Raspbery Pi Imagerを使えば、この記事のような些末な作業はバイパスすることができます。
-
-https://www.raspberrypi.com/software/
-
 
 # はじめに
 
