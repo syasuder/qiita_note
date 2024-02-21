@@ -1,11 +1,9 @@
 <!--
-title:   win-raw-inを使う
+title:   win-raw-inを使う（usb.ids読み込みのエラー回避）
 tags:    Python,Rawinput
 id:      5abee95c4d47d9633d95
 private: true
 -->
-# win-raw-inを使う（usb.ids読み込みのエラー回避）
-
 ## win-raw-inとは
 
 https://github.com/holl-/win-raw-in
