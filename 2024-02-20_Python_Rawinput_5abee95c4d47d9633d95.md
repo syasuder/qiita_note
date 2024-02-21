@@ -14,6 +14,8 @@ readme.mdにも書いてある通り、Windowsで複数の入力デバイスを�
 
 > This package was inspired by the keyboard package. Unfortunately, keyboard does not distinguish between multiple input devices on Windows.
 
+[Raw Input](https://learn.microsoft.com/en-us/windows/win32/inputdev/raw-input)はWindowsで複数HIDデバイスを取り扱うのに便利です。C++ではAPIを叩けばよいですが、Pythonから、となるといろいろ面倒です。
+win-raw-inを使えばその面倒を回避できるので大変ありがたいです。
 
 ## インストール
 
