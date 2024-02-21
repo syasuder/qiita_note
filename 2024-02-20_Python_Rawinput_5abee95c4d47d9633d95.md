@@ -4,7 +4,7 @@ tags:    Python,Rawinput
 id:      5abee95c4d47d9633d95
 private: true
 -->
-# win-raw-inを使う
+# win-raw-inを使う（usb.ids読み込みのエラー回避）
 
 ## win-raw-inとは
 
@@ -14,7 +14,6 @@ Pythonでraw inputを使うためのモジュールです。
 
 readme.mdにも書いてある通り、Windowsで複数の入力デバイスを識別するために必要なものです。
 
-https://github.com/holl-/win-raw-in?tab=readme-ov-file#related-packages
 > This package was inspired by the keyboard package. Unfortunately, keyboard does not distinguish between multiple input devices on Windows.
 
 
