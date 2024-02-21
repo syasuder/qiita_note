@@ -42,7 +42,7 @@ UnicodeDecodeError: 'cp932' codec can't decode byte 0x97 in position 148213: ill
 >>>
 ```
 
-エラーの原因は`usb.ids`ファイルのエンコーディングが`windows-1252`（あるいは`latin-1`）だからです。
+エラーの原因は`usb.ids`ファイルのエンコーディングが`windows-1252`（あるいは`latin-1`）だからのようです。
 
 latinな環境では全く問題ありませんので、バグとは言えないです。
 
