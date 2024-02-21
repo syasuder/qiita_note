@@ -1,6 +1,6 @@
 <!--
-title:   win-raw-inを使う（usb.ids読み込みのエラー回避）
-tags:    Python,Rawinput
+title:   win-raw-inでRaw Inputを使う
+tags:    Python,Rawinput,Windows
 id:      5abee95c4d47d9633d95
 private: true
 -->
