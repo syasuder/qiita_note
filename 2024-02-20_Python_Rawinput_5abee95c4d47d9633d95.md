@@ -67,17 +67,17 @@ http://www.linux-usb.org/usb-ids.html
 Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import winrawin
->>> 
+>>>
 >>> for device in winrawin.list_devices():
 ...     if isinstance(device, winrawin.Mouse):
 ...         print(f"{device.mouse_type} name='{device.path}'")
 ...     if isinstance(device, winrawin.Keyboard):
 ...         print(f"{device.keyboard_type} with {device.num_keys} keys name='{device.path}'")
-... 
+...
 Unknown type or HID keyboard with 264 keys name='\\?\HID#VID_17EF&PID_60EE&MI_00#9&4677234&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}'
 HID wheel mouse name='\\?\HID#VID_17EF&PID_60EE&MI_01&Col01#9&17978e72&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}'
 HID wheel mouse name='\\?\HID#VID_045E&PID_0047#8&1c946f37&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}'
 ```
 
-→マウスが2個認識されています。
 
+→マウスが2個認識されています。
