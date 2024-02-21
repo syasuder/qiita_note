@@ -56,7 +56,7 @@ http://www.linux-usb.org/usb-ids.html
 だれかfolkしてprを投げてください。
 
 ```diff_python:_usb_ids.py
-- with open(os.path.join(os.path.dirname(__file__), 'usb.ids'), 'r', encoding='latin-1') as usb_ids_file:
+- with open(os.path.join(os.path.dirname(__file__), 'usb.ids'), 'r') as usb_ids_file:
 + with open(os.path.join(os.path.dirname(__file__), 'usb.ids'), 'r', encoding='latin-1') as usb_ids_file:
     DATABASE = usb_ids_file.read()
 ```
@@ -78,5 +78,6 @@ Unknown type or HID keyboard with 264 keys name='\\?\HID#VID_17EF&PID_60EE&MI_00
 HID wheel mouse name='\\?\HID#VID_17EF&PID_60EE&MI_01&Col01#9&17978e72&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}'
 HID wheel mouse name='\\?\HID#VID_045E&PID_0047#8&1c946f37&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}'
 ```
+
 →マウスが2個認識されています。
 
